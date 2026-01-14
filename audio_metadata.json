@@ -1,0 +1,3489 @@
+{
+  "adv/AD082_ALCOHOLIA.mp3": {
+    "file": "adv/AD082_ALCOHOLIA.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 48.312
+    }
+  },
+  "adv/MONO_AD001_LIFE_INVADER.mp3": {
+    "file": "adv/MONO_AD001_LIFE_INVADER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 31.032
+    }
+  },
+  "adv/MONO_AD002_RIGHTEOUS_SLAUGHTER_NUKE.mp3": {
+    "file": "adv/MONO_AD002_RIGHTEOUS_SLAUGHTER_NUKE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.912
+    }
+  },
+  "adv/MONO_AD003_RIGHTEOUS_SLAUGHTER_RUSSIAN.mp3": {
+    "file": "adv/MONO_AD003_RIGHTEOUS_SLAUGHTER_RUSSIAN.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.08
+    }
+  },
+  "adv/MONO_AD004_RIGHTEOUS_SLAUGHTER_LEVELS.mp3": {
+    "file": "adv/MONO_AD004_RIGHTEOUS_SLAUGHTER_LEVELS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 48.336
+    }
+  },
+  "adv/MONO_AD005_SA_TOURISM_BOARD.mp3": {
+    "file": "adv/MONO_AD005_SA_TOURISM_BOARD.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 51.72
+    }
+  },
+  "adv/MONO_AD006_DESERT_TOURISM.mp3": {
+    "file": "adv/MONO_AD006_DESERT_TOURISM.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 37.008
+    }
+  },
+  "adv/MONO_AD007_SA_WATER_POWER.mp3": {
+    "file": "adv/MONO_AD007_SA_WATER_POWER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 35.04
+    }
+  },
+  "adv/MONO_AD008_UP_N_ATOM.mp3": {
+    "file": "adv/MONO_AD008_UP_N_ATOM.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 22.824
+    }
+  },
+  "adv/MONO_AD009_PROP_43.mp3": {
+    "file": "adv/MONO_AD009_PROP_43.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 32.232
+    }
+  },
+  "adv/MONO_AD010_TOESHOES.mp3": {
+    "file": "adv/MONO_AD010_TOESHOES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 25.176
+    }
+  },
+  "adv/MONO_AD011_IMPLANT_OUTSOURCE.mp3": {
+    "file": "adv/MONO_AD011_IMPLANT_OUTSOURCE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 35.4
+    }
+  },
+  "adv/MONO_AD012_DONATE_YOUR_CAR.mp3": {
+    "file": "adv/MONO_AD012_DONATE_YOUR_CAR.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 38.352
+    }
+  },
+  "adv/MONO_AD013_RACE_TO_PLUTO.mp3": {
+    "file": "adv/MONO_AD013_RACE_TO_PLUTO.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.816
+    }
+  },
+  "adv/MONO_AD014_PROP208_DAD.mp3": {
+    "file": "adv/MONO_AD014_PROP208_DAD.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 31.104
+    }
+  },
+  "adv/MONO_AD015_PROP208_JUNGLE.mp3": {
+    "file": "adv/MONO_AD015_PROP208_JUNGLE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 23.088
+    }
+  },
+  "adv/MONO_AD016_PISSWASSER.mp3": {
+    "file": "adv/MONO_AD016_PISSWASSER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 82.032
+    }
+  },
+  "adv/MONO_AD017_QUEENSBURY_BOXING.mp3": {
+    "file": "adv/MONO_AD017_QUEENSBURY_BOXING.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 45.912
+    }
+  },
+  "adv/MONO_AD018_LOTTERY_STARVING_CHILDREN.mp3": {
+    "file": "adv/MONO_AD018_LOTTERY_STARVING_CHILDREN.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 23.856
+    }
+  },
+  "adv/MONO_AD019_LOTTERY_REALLY_ADDICTED.mp3": {
+    "file": "adv/MONO_AD019_LOTTERY_REALLY_ADDICTED.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.664
+    }
+  },
+  "adv/MONO_AD020_WHIZ_WIRLESS.mp3": {
+    "file": "adv/MONO_AD020_WHIZ_WIRLESS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 39.768
+    }
+  },
+  "adv/MONO_AD021_RECTIFY_HOLISTIC.mp3": {
+    "file": "adv/MONO_AD021_RECTIFY_HOLISTIC.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 45.648
+    }
+  },
+  "adv/MONO_AD022_BAIL_BONDS.mp3": {
+    "file": "adv/MONO_AD022_BAIL_BONDS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 39.168
+    }
+  },
+  "adv/MONO_AD023_OVINE_HUMAN_RESOURCES.mp3": {
+    "file": "adv/MONO_AD023_OVINE_HUMAN_RESOURCES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.184
+    }
+  },
+  "adv/MONO_AD024_PROPOSITION_14.mp3": {
+    "file": "adv/MONO_AD024_PROPOSITION_14.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 33.936
+    }
+  },
+  "adv/MONO_AD025_PIC_OFFICER.mp3": {
+    "file": "adv/MONO_AD025_PIC_OFFICER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 36.936
+    }
+  },
+  "adv/MONO_AD026_PIC_FRANCHISE.mp3": {
+    "file": "adv/MONO_AD026_PIC_FRANCHISE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 66.336
+    }
+  },
+  "adv/MONO_AD027_SA_LABOTOMY.mp3": {
+    "file": "adv/MONO_AD027_SA_LABOTOMY.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 37.032
+    }
+  },
+  "adv/MONO_AD028_DARWINIAN_YOGA.mp3": {
+    "file": "adv/MONO_AD028_DARWINIAN_YOGA.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 39.336
+    }
+  },
+  "adv/MONO_AD029_GASTRO_BAND.mp3": {
+    "file": "adv/MONO_AD029_GASTRO_BAND.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 57.288
+    }
+  },
+  "adv/MONO_AD030_ECONOMIC_RECOVERY_GROUP.mp3": {
+    "file": "adv/MONO_AD030_ECONOMIC_RECOVERY_GROUP.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 33.168
+    }
+  },
+  "adv/MONO_AD031_REHAB_ISLAND.mp3": {
+    "file": "adv/MONO_AD031_REHAB_ISLAND.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.112
+    }
+  },
+  "adv/MONO_AD032_LARRYS_RV_SALES.mp3": {
+    "file": "adv/MONO_AD032_LARRYS_RV_SALES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 51.312
+    }
+  },
+  "adv/MONO_AD033_NIGHT_LIGHTS.mp3": {
+    "file": "adv/MONO_AD033_NIGHT_LIGHTS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 51.768
+    }
+  },
+  "adv/MONO_AD034_HEAD_SHOTS.mp3": {
+    "file": "adv/MONO_AD034_HEAD_SHOTS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 61.944
+    }
+  },
+  "adv/MONO_AD035_ELECTROTOKE.mp3": {
+    "file": "adv/MONO_AD035_ELECTROTOKE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.808
+    }
+  },
+  "adv/MONO_AD036_TOILET_CLEANER.mp3": {
+    "file": "adv/MONO_AD036_TOILET_CLEANER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 28.104
+    }
+  },
+  "adv/MONO_AD037_STOP_PAYING_MORTGAGE.mp3": {
+    "file": "adv/MONO_AD037_STOP_PAYING_MORTGAGE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 42.144
+    }
+  },
+  "adv/MONO_AD038_FLOYDS_SCRAP_METAL.mp3": {
+    "file": "adv/MONO_AD038_FLOYDS_SCRAP_METAL.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 51.912
+    }
+  },
+  "adv/MONO_AD039_BUDDYS_TRUCKING.mp3": {
+    "file": "adv/MONO_AD039_BUDDYS_TRUCKING.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 49.416
+    }
+  },
+  "adv/MONO_AD040_FLEECA_INTEREST_FEES.mp3": {
+    "file": "adv/MONO_AD040_FLEECA_INTEREST_FEES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 41.088
+    }
+  },
+  "adv/MONO_AD041_FLEECA_BEDROOM.mp3": {
+    "file": "adv/MONO_AD041_FLEECA_BEDROOM.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 44.352
+    }
+  },
+  "adv/MONO_AD042_SHARK.mp3": {
+    "file": "adv/MONO_AD042_SHARK.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 45.264
+    }
+  },
+  "adv/MONO_AD043_SMOKED_DREAMS.mp3": {
+    "file": "adv/MONO_AD043_SMOKED_DREAMS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 60.768
+    }
+  },
+  "adv/MONO_AD044_HIPSTERS_FOR_HIRE.mp3": {
+    "file": "adv/MONO_AD044_HIPSTERS_FOR_HIRE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.312
+    }
+  },
+  "adv/MONO_AD045_PRESERVEX.mp3": {
+    "file": "adv/MONO_AD045_PRESERVEX.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 39.336
+    }
+  },
+  "adv/MONO_AD046_DONS_COUNTRY_STORE.mp3": {
+    "file": "adv/MONO_AD046_DONS_COUNTRY_STORE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 42.456
+    }
+  },
+  "adv/MONO_AD047_PROPOSITION_45.mp3": {
+    "file": "adv/MONO_AD047_PROPOSITION_45.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 48.528
+    }
+  },
+  "adv/MONO_AD048_WINDSOR_IMMIGRANT.mp3": {
+    "file": "adv/MONO_AD048_WINDSOR_IMMIGRANT.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 41.016
+    }
+  },
+  "adv/MONO_AD049_WINDSOR_SWINGER_GROTTO.mp3": {
+    "file": "adv/MONO_AD049_WINDSOR_SWINGER_GROTTO.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 58.464
+    }
+  },
+  "adv/MONO_AD050_CUCKOLD_THERAPHY.mp3": {
+    "file": "adv/MONO_AD050_CUCKOLD_THERAPHY.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 60.504
+    }
+  },
+  "adv/MONO_AD051_DIGIFARM_DAUGHTER.mp3": {
+    "file": "adv/MONO_AD051_DIGIFARM_DAUGHTER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.424
+    }
+  },
+  "adv/MONO_AD052_DIGIFARM_OTHER_GAMES.mp3": {
+    "file": "adv/MONO_AD052_DIGIFARM_OTHER_GAMES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.672
+    }
+  },
+  "adv/MONO_AD053_BLAINE_COUNTY_BANK.mp3": {
+    "file": "adv/MONO_AD053_BLAINE_COUNTY_BANK.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 32.088
+    }
+  },
+  "adv/MONO_AD054_LOMBANK.mp3": {
+    "file": "adv/MONO_AD054_LOMBANK.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 61.56
+    }
+  },
+  "adv/MONO_AD055_HITTING_KIDS_WORKS_WONDERS.mp3": {
+    "file": "adv/MONO_AD055_HITTING_KIDS_WORKS_WONDERS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 40.944
+    }
+  },
+  "adv/MONO_AD056_VINEWOOD_HEALTH.mp3": {
+    "file": "adv/MONO_AD056_VINEWOOD_HEALTH.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 57.024
+    }
+  },
+  "adv/MONO_AD057_BENDERS_WANKER.mp3": {
+    "file": "adv/MONO_AD057_BENDERS_WANKER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 48.888
+    }
+  },
+  "adv/MONO_AD058_BENDERS_PIES.mp3": {
+    "file": "adv/MONO_AD058_BENDERS_PIES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.56
+    }
+  },
+  "adv/MONO_AD059_YOUTOOL.mp3": {
+    "file": "adv/MONO_AD059_YOUTOOL.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 53.688
+    }
+  },
+  "adv/MONO_AD060_AMUNATION_GARDENING.mp3": {
+    "file": "adv/MONO_AD060_AMUNATION_GARDENING.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 69.888
+    }
+  },
+  "adv/MONO_AD061_AMUNATION_APOCOLYPSE.mp3": {
+    "file": "adv/MONO_AD061_AMUNATION_APOCOLYPSE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 79.992
+    }
+  },
+  "adv/MONO_AD062_FLOW_WATER.mp3": {
+    "file": "adv/MONO_AD062_FLOW_WATER.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.088
+    }
+  },
+  "adv/MONO_AD063_SEX_ADDICTION_OPPORTUNITY.mp3": {
+    "file": "adv/MONO_AD063_SEX_ADDICTION_OPPORTUNITY.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 58.224
+    }
+  },
+  "adv/MONO_AD064_SERIOUS_COUGAR.mp3": {
+    "file": "adv/MONO_AD064_SERIOUS_COUGAR.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 28.224
+    }
+  },
+  "adv/MONO_AD065_CLOUD_COMPUTING.mp3": {
+    "file": "adv/MONO_AD065_CLOUD_COMPUTING.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 64.584
+    }
+  },
+  "adv/MONO_AD067_PRIDE_PREJ_GRAIN_ALCOHOL.mp3": {
+    "file": "adv/MONO_AD067_PRIDE_PREJ_GRAIN_ALCOHOL.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.856
+    }
+  },
+  "adv/MONO_AD068_PRIDE_PREJ_TORNADO.mp3": {
+    "file": "adv/MONO_AD068_PRIDE_PREJ_TORNADO.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 57.72
+    }
+  },
+  "adv/MONO_AD069_HITTING_KIDS_POT.mp3": {
+    "file": "adv/MONO_AD069_HITTING_KIDS_POT.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.848
+    }
+  },
+  "adv/MONO_AD070_HAMMERSTEIN_FAUST.mp3": {
+    "file": "adv/MONO_AD070_HAMMERSTEIN_FAUST.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 42.6
+    }
+  },
+  "adv/MONO_AD071_GRAIN_OF_TRUTH.mp3": {
+    "file": "adv/MONO_AD071_GRAIN_OF_TRUTH.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 61.44
+    }
+  },
+  "adv/MONO_AD072_FLY_US_CHOICE.mp3": {
+    "file": "adv/MONO_AD072_FLY_US_CHOICE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 19.176
+    }
+  },
+  "adv/MONO_AD073_FLY_US_DRUNK.mp3": {
+    "file": "adv/MONO_AD073_FLY_US_DRUNK.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 15.408
+    }
+  },
+  "adv/MONO_AD074_FLY_US_PLANES.mp3": {
+    "file": "adv/MONO_AD074_FLY_US_PLANES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.888
+    }
+  },
+  "adv/MONO_AD075_REFINANCE_LS_COMMERCE.mp3": {
+    "file": "adv/MONO_AD075_REFINANCE_LS_COMMERCE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 57.648
+    }
+  },
+  "adv/MONO_AD076_REBRANDING_JERKING.mp3": {
+    "file": "adv/MONO_AD076_REBRANDING_JERKING.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 57.216
+    }
+  },
+  "adv/MONO_AD077_REBRANDING_ABYSS.mp3": {
+    "file": "adv/MONO_AD077_REBRANDING_ABYSS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 43.752
+    }
+  },
+  "adv/MONO_AD078_SEX_ADDICT_DROWNING.mp3": {
+    "file": "adv/MONO_AD078_SEX_ADDICT_DROWNING.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.224
+    }
+  },
+  "adv/MONO_AD079_SEX_ADDICT_TRAIN.mp3": {
+    "file": "adv/MONO_AD079_SEX_ADDICT_TRAIN.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 26.832
+    }
+  },
+  "adv/MONO_AD080_SEX_MANOPAUSE.mp3": {
+    "file": "adv/MONO_AD080_SEX_MANOPAUSE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 68.088
+    }
+  },
+  "adv/MONO_AD081_MMA.mp3": {
+    "file": "adv/MONO_AD081_MMA.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 39.648
+    }
+  },
+  "adv/MONO_AD083_EGOCHASER.mp3": {
+    "file": "adv/MONO_AD083_EGOCHASER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.544
+    }
+  },
+  "adv/MONO_AD084_CHAINS_INTMACY_THROB.mp3": {
+    "file": "adv/MONO_AD084_CHAINS_INTMACY_THROB.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 34.776
+    }
+  },
+  "adv/MONO_AD085_CHAINS_INTMACY_DIAMONDS.mp3": {
+    "file": "adv/MONO_AD085_CHAINS_INTMACY_DIAMONDS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 46.344
+    }
+  },
+  "adv/MONO_AD086_BRAVADO_FARMS.mp3": {
+    "file": "adv/MONO_AD086_BRAVADO_FARMS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 61.416
+    }
+  },
+  "adv/MONO_AD087_BRAVADO_CRUISE_CONTROL.mp3": {
+    "file": "adv/MONO_AD087_BRAVADO_CRUISE_CONTROL.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 31.584
+    }
+  },
+  "adv/MONO_AD088_SA_FLIGHT_SCHOOL.mp3": {
+    "file": "adv/MONO_AD088_SA_FLIGHT_SCHOOL.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.48
+    }
+  },
+  "adv/MONO_AD089_CREVIS_NATURE_REVISED.mp3": {
+    "file": "adv/MONO_AD089_CREVIS_NATURE_REVISED.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 40.68
+    }
+  },
+  "adv/MONO_AD090_CREVIS_EVEREST.mp3": {
+    "file": "adv/MONO_AD090_CREVIS_EVEREST.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 37.464
+    }
+  },
+  "adv/MONO_AD091_EPSILON_ANTARTICA.mp3": {
+    "file": "adv/MONO_AD091_EPSILON_ANTARTICA.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.744
+    }
+  },
+  "adv/MONO_AD092_EPSILON_FAMOUS_PEOPLE.mp3": {
+    "file": "adv/MONO_AD092_EPSILON_FAMOUS_PEOPLE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.48
+    }
+  },
+  "adv/MONO_AD093_SEX_ADDICTION_VICTIM.mp3": {
+    "file": "adv/MONO_AD093_SEX_ADDICTION_VICTIM.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.792
+    }
+  },
+  "adv/MONO_AD094_PONTIUS.mp3": {
+    "file": "adv/MONO_AD094_PONTIUS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.808
+    }
+  },
+  "adv/MONO_AD095_SUE_MURRY.mp3": {
+    "file": "adv/MONO_AD095_SUE_MURRY.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 43.968
+    }
+  },
+  "adv/MONO_AD096_JOCK_CRANLEY1.mp3": {
+    "file": "adv/MONO_AD096_JOCK_CRANLEY1.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.608
+    }
+  },
+  "adv/MONO_AD097_JOCK_CRANLEY2.mp3": {
+    "file": "adv/MONO_AD097_JOCK_CRANLEY2.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 44.736
+    }
+  },
+  "news/MONO_NEWS_01.mp3": {
+    "file": "news/MONO_NEWS_01.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_02.mp3": {
+    "file": "news/MONO_NEWS_02.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_03.mp3": {
+    "file": "news/MONO_NEWS_03.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_04.mp3": {
+    "file": "news/MONO_NEWS_04.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_05.mp3": {
+    "file": "news/MONO_NEWS_05.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_06.mp3": {
+    "file": "news/MONO_NEWS_06.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_07.mp3": {
+    "file": "news/MONO_NEWS_07.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_08.mp3": {
+    "file": "news/MONO_NEWS_08.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_09.mp3": {
+    "file": "news/MONO_NEWS_09.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_10.mp3": {
+    "file": "news/MONO_NEWS_10.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_100.mp3": {
+    "file": "news/MONO_NEWS_100.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_101.mp3": {
+    "file": "news/MONO_NEWS_101.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_102.mp3": {
+    "file": "news/MONO_NEWS_102.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_103.mp3": {
+    "file": "news/MONO_NEWS_103.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_104.mp3": {
+    "file": "news/MONO_NEWS_104.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_105.mp3": {
+    "file": "news/MONO_NEWS_105.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_106.mp3": {
+    "file": "news/MONO_NEWS_106.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_107.mp3": {
+    "file": "news/MONO_NEWS_107.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_108.mp3": {
+    "file": "news/MONO_NEWS_108.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_109.mp3": {
+    "file": "news/MONO_NEWS_109.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_11.mp3": {
+    "file": "news/MONO_NEWS_11.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_110.mp3": {
+    "file": "news/MONO_NEWS_110.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_111.mp3": {
+    "file": "news/MONO_NEWS_111.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_112.mp3": {
+    "file": "news/MONO_NEWS_112.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_113.mp3": {
+    "file": "news/MONO_NEWS_113.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_114.mp3": {
+    "file": "news/MONO_NEWS_114.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_115.mp3": {
+    "file": "news/MONO_NEWS_115.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_116.mp3": {
+    "file": "news/MONO_NEWS_116.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_117.mp3": {
+    "file": "news/MONO_NEWS_117.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_118.mp3": {
+    "file": "news/MONO_NEWS_118.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_119.mp3": {
+    "file": "news/MONO_NEWS_119.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_12.mp3": {
+    "file": "news/MONO_NEWS_12.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_120.mp3": {
+    "file": "news/MONO_NEWS_120.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_121.mp3": {
+    "file": "news/MONO_NEWS_121.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_122.mp3": {
+    "file": "news/MONO_NEWS_122.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_123.mp3": {
+    "file": "news/MONO_NEWS_123.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_13.mp3": {
+    "file": "news/MONO_NEWS_13.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_14.mp3": {
+    "file": "news/MONO_NEWS_14.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_15.mp3": {
+    "file": "news/MONO_NEWS_15.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_16.mp3": {
+    "file": "news/MONO_NEWS_16.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_17.mp3": {
+    "file": "news/MONO_NEWS_17.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_18.mp3": {
+    "file": "news/MONO_NEWS_18.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_19.mp3": {
+    "file": "news/MONO_NEWS_19.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_20.mp3": {
+    "file": "news/MONO_NEWS_20.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_21.mp3": {
+    "file": "news/MONO_NEWS_21.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_22.mp3": {
+    "file": "news/MONO_NEWS_22.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_23.mp3": {
+    "file": "news/MONO_NEWS_23.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_24.mp3": {
+    "file": "news/MONO_NEWS_24.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_25.mp3": {
+    "file": "news/MONO_NEWS_25.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_26.mp3": {
+    "file": "news/MONO_NEWS_26.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_27.mp3": {
+    "file": "news/MONO_NEWS_27.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_28.mp3": {
+    "file": "news/MONO_NEWS_28.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_29.mp3": {
+    "file": "news/MONO_NEWS_29.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_30.mp3": {
+    "file": "news/MONO_NEWS_30.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_31.mp3": {
+    "file": "news/MONO_NEWS_31.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_32.mp3": {
+    "file": "news/MONO_NEWS_32.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_33.mp3": {
+    "file": "news/MONO_NEWS_33.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_34.mp3": {
+    "file": "news/MONO_NEWS_34.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_35.mp3": {
+    "file": "news/MONO_NEWS_35.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_36.mp3": {
+    "file": "news/MONO_NEWS_36.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_37.mp3": {
+    "file": "news/MONO_NEWS_37.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_38.mp3": {
+    "file": "news/MONO_NEWS_38.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_39.mp3": {
+    "file": "news/MONO_NEWS_39.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_40.mp3": {
+    "file": "news/MONO_NEWS_40.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_41.mp3": {
+    "file": "news/MONO_NEWS_41.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_42.mp3": {
+    "file": "news/MONO_NEWS_42.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_43.mp3": {
+    "file": "news/MONO_NEWS_43.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_44.mp3": {
+    "file": "news/MONO_NEWS_44.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_45.mp3": {
+    "file": "news/MONO_NEWS_45.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_46.mp3": {
+    "file": "news/MONO_NEWS_46.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_47.mp3": {
+    "file": "news/MONO_NEWS_47.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_48.mp3": {
+    "file": "news/MONO_NEWS_48.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_49.mp3": {
+    "file": "news/MONO_NEWS_49.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_50.mp3": {
+    "file": "news/MONO_NEWS_50.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_51.mp3": {
+    "file": "news/MONO_NEWS_51.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_52.mp3": {
+    "file": "news/MONO_NEWS_52.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_53.mp3": {
+    "file": "news/MONO_NEWS_53.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_54.mp3": {
+    "file": "news/MONO_NEWS_54.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_55.mp3": {
+    "file": "news/MONO_NEWS_55.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_56.mp3": {
+    "file": "news/MONO_NEWS_56.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_57.mp3": {
+    "file": "news/MONO_NEWS_57.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_58.mp3": {
+    "file": "news/MONO_NEWS_58.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_59.mp3": {
+    "file": "news/MONO_NEWS_59.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_60.mp3": {
+    "file": "news/MONO_NEWS_60.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_61.mp3": {
+    "file": "news/MONO_NEWS_61.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_62.mp3": {
+    "file": "news/MONO_NEWS_62.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_63.mp3": {
+    "file": "news/MONO_NEWS_63.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_64.mp3": {
+    "file": "news/MONO_NEWS_64.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_81.mp3": {
+    "file": "news/MONO_NEWS_81.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_82.mp3": {
+    "file": "news/MONO_NEWS_82.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_83.mp3": {
+    "file": "news/MONO_NEWS_83.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_84.mp3": {
+    "file": "news/MONO_NEWS_84.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_85.mp3": {
+    "file": "news/MONO_NEWS_85.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_86.mp3": {
+    "file": "news/MONO_NEWS_86.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_87.mp3": {
+    "file": "news/MONO_NEWS_87.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_88.mp3": {
+    "file": "news/MONO_NEWS_88.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_89.mp3": {
+    "file": "news/MONO_NEWS_89.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_90.mp3": {
+    "file": "news/MONO_NEWS_90.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_91.mp3": {
+    "file": "news/MONO_NEWS_91.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_92.mp3": {
+    "file": "news/MONO_NEWS_92.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_93.mp3": {
+    "file": "news/MONO_NEWS_93.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_94.mp3": {
+    "file": "news/MONO_NEWS_94.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_95.mp3": {
+    "file": "news/MONO_NEWS_95.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_96.mp3": {
+    "file": "news/MONO_NEWS_96.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_97.mp3": {
+    "file": "news/MONO_NEWS_97.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_98.mp3": {
+    "file": "news/MONO_NEWS_98.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_99.mp3": {
+    "file": "news/MONO_NEWS_99.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "RADIO_18_90S_ROCK/musicas/ANSWER_TO_YOURSELF.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/ANSWER_TO_YOURSELF.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 193.32
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/BLACK_GREASE.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/BLACK_GREASE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 221.088
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/CALIFORNIA_GIRLS.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/CALIFORNIA_GIRLS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 159.84
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/COCAINE.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/COCAINE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 172.32
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/CRAWLING_AFTER_YOU.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/CRAWLING_AFTER_YOU.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 205.944
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/DIDDY_WAH_DIDDY.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/DIDDY_WAH_DIDDY.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 129.696
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/FALL_IN_LINE.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/FALL_IN_LINE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 177.768
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/FIRE_DOESNT_BURN_ITSELF.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/FIRE_DOESNT_BURN_ITSELF.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 229.224
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/GONE_FOR_GOOD.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/GONE_FOR_GOOD.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 103.152
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/HYSTERIA.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/HYSTERIA.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 144.792
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/NEXT_STOP.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/NEXT_STOP.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 149.28
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/NINE_IS_GOD.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/NINE_IS_GOD.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 207.816
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/SIXPACK.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/SIXPACK.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 149.496
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/SLEEPWALKER.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/SLEEPWALKER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 209.496
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/THE_DREAM.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/THE_DREAM.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 213.792
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/THIS_MYSTIC_DECADE.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/THIS_MYSTIC_DECADE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 181.776
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/TURN_IT_AROUND.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/TURN_IT_AROUND.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 234.408
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/USED_BLOOD.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/USED_BLOOD.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 144.168
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/WET_BLANKET.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/WET_BLANKET.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 199.896
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/WHO_NEEDS_YOU.mp3": {
+    "file": "RADIO_18_90S_ROCK/musicas/WHO_NEEDS_YOU.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 192.504
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_01.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_01.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.792
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_02.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_02.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 9.672
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_03.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_03.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 7.728
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_04.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_04.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.296
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_05.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_05.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.4
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_06.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_06.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 12.96
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_07.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_07.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 7.248
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_08.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_08.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 8.592
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_09.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_09.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.712
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_01.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_01.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_02.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_02.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 17.064
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_03.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_03.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 13.632
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_04.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_04.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 23.328
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_05.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_05.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 21.504
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_06.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_06.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 19.944
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_07.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_07.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 10.416
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_08.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_08.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 15.792
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_09.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_09.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.536
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_10.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_10.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 23.016
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_11.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_11.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 21.696
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_12.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_12.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 13.104
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_13.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_13.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 14.04
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_14.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_14.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 14.064
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_15.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_15.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.264
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_16.mp3": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_16.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 16.176
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/ALWAYS.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/ALWAYS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 209.28
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/BOOGIE_IN_ZERO_GRAVITY.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/BOOGIE_IN_ZERO_GRAVITY.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 220.272
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/CHANGE_OF_COAST.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/CHANGE_OF_COAST.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 184.608
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/COLOURS.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/COLOURS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 205.224
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/CRYSTALFILM.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/CRYSTALFILM.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 231.168
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/DARK_MATTER.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/DARK_MATTER.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 197.088
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/DONT_COME_CLOSE.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/DONT_COME_CLOSE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 184.392
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/DO_YOU_BELIEVE.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/DO_YOU_BELIEVE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 216.024
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/FEEL_THE_SAME.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/FEEL_THE_SAME.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 201.936
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/FLUTES.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/FLUTES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 237.816
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/FORGET.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/FORGET.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 220.056
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/FROM_NOWHERE.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/FROM_NOWHERE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 218.4
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/HEARTBREAK.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/HEARTBREAK.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 217.224
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/HEART_IN_THE_PIPES.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/HEART_IN_THE_PIPES.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 223.896
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/HIGH_PRESSURE.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/HIGH_PRESSURE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 185.808
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/HOLD_ON_HOLY_GHOST.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/HOLD_ON_HOLY_GHOST.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 347.544
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/IN_REAL_LIFE.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/IN_REAL_LIFE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 204.432
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/JASMINE.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/JASMINE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 216.888
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/LITTLE_WHITE_LIE.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/LITTLE_WHITE_LIE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 173.952
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/LIVING_IN_AMERICA.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/LIVING_IN_AMERICA.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 183.312
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/LUCKY_BOY.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/LUCKY_BOY.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 207.384
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/MESMERIZED.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/MESMERIZED.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 214.2
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/NEW_BEAT.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/NEW_BEAT.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 239.616
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/NOWHERE_TO_GO.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/NOWHERE_TO_GO.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 203.064
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/OLD_LOVE.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/OLD_LOVE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 224.328
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/ONE_GIRL_ONE_BOY.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/ONE_GIRL_ONE_BOY.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 198.312
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/O_N_E.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/O_N_E.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 261.12
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/PHARAOHS.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/PHARAOHS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 212.784
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/POLISH_GIRL.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/POLISH_GIRL.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 262.056
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/PSYCHIC_CITY.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/PSYCHIC_CITY.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 204.288
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SHINE_A_LIGHT.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SHINE_A_LIGHT.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 229.968
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SHOOTING_HOLES.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SHOOTING_HOLES.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 185.976
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SLEEPWALKING.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SLEEPWALKING.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 198.168
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SOMETIMES.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SOMETIMES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 215.208
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SO_MANY_DETAILS.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SO_MANY_DETAILS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 225.816
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/STRANGERS_IN_THE_WIND.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/STRANGERS_IN_THE_WIND.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 253.92
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/THE_DRUMMER.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/THE_DRUMMER.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 210.024
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/THE_SET_UP.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/THE_SET_UP.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 209.544
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/TRULY_ALIVE.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/TRULY_ALIVE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 264.984
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/WHEN_YOURE_OUT.mp3": {
+    "file": "RADIO_16_SILVERLAKE/musicas/WHEN_YOURE_OUT.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 263.856
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_01.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_01.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 12.024
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_02.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_02.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.36
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_03.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_03.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 9.528
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_04.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_04.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.144
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_05.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_05.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 6
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_06.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_06.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 11.424
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_07.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_07.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 11.808
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_08.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_08.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 11.496
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_09.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_09.mp3",
+    "fusionStartType": "none",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 4.944
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_10.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_10.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.208
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_11.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_11.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.848
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_12.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_12.mp3",
+    "fusionStartType": "none",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.168
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_13.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_13.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.424
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_01.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_01.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.68
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_02.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_02.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.072
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_03.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_03.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 31.248
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_04.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_04.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.96
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_05.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_05.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.816
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_06.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_06.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.048
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_07.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_07.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 12.888
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_08.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_08.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 23.328
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_09.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_09.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.904
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_10.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_10.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 21.84
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_11.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_11.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 33.168
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_12.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_12.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.6
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_13.mp3": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_13.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 25.992
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/ALL_THE_THINGS_SHE_SAID.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/ALL_THE_THINGS_SHE_SAID.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 249.528
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/BAKER_STREET.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/BAKER_STREET.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 329.16
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/BIG_LOG.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/BIG_LOG.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 211.008
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/BLACK_VELVET.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/BLACK_VELVET.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 266.88
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/BURNING_HEART.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/BURNING_HEART.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 218.328
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/CARRY_ON_MY_WAYWARD_SUN.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/CARRY_ON_MY_WAYWARD_SUN.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 314.4
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/CATS_IN_THE_CRADLE.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/CATS_IN_THE_CRADLE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 219.528
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/CIRCLE_IN_THE_SAND.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/CIRCLE_IN_THE_SAND.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 223.32
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/COMING_ON_STRONG.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/COMING_ON_STRONG.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 210.408
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/DANGER_ZONE.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/DANGER_ZONE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 204.24
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/DIRTY_WHITE_BOY.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/DIRTY_WHITE_BOY.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 207.096
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/FORTUNATE_SON.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/FORTUNATE_SON.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 129.24
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/GIMME_ALL_YOUR_LOVIN.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/GIMME_ALL_YOUR_LOVIN.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 183.432
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/HEARTBEAT.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/HEARTBEAT.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 203.208
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/HIGHER_LOVE.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/HIGHER_LOVE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 269.376
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/HOLLYWOOD_NIGHTS.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/HOLLYWOOD_NIGHTS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 222.792
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/IF_YOU_LEAVE_ME_NOW.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/IF_YOU_LEAVE_ME_NOW.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 200.112
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/IM_FREE.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/IM_FREE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 204.048
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/I_CANT_WAIT.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/I_CANT_WAIT.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 253.92
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/I_DONT_CARE_ANYMORE.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/I_DONT_CARE_ANYMORE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 300.984
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/I_WOULDNT_WANT_TO_BE.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/I_WOULDNT_WANT_TO_BE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 190.392
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/LONELY_IS_THE_NIGHT.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/LONELY_IS_THE_NIGHT.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 220.752
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/MISSISSIPPI_QUEEN.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/MISSISSIPPI_QUEEN.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 148.632
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/NIGHT_MOVES.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/NIGHT_MOVES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 251.328
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/OGDENS_NUT_GONE_FLAKE.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/OGDENS_NUT_GONE_FLAKE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 140.184
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/PEACE_OF_MIND.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/PEACE_OF_MIND.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 266.376
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/PHOTOGRAPH.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/PHOTOGRAPH.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 216.624
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/RADIO_GA_GA.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/RADIO_GA_GA.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 278.64
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/RAIN.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/RAIN.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 222.048
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/ROCKIN_ME.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/ROCKIN_ME.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 171.792
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/ROUNDABOUT.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/ROUNDABOUT.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 506.328
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/SATURDAY_NIGHTS_ALRIGHT.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/SATURDAY_NIGHTS_ALRIGHT.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 221.712
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/SHADOWS_OF_THE_NIGHT.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/SHADOWS_OF_THE_NIGHT.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 211.296
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/THE_BREAKUP_SONG.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/THE_BREAKUP_SONG.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 154.656
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/THIRTY_DAYS_IN_THE_HOLE.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/THIRTY_DAYS_IN_THE_HOLE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 191.856
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/TOO_LATE_FOR_GOODBYES.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/TOO_LATE_FOR_GOODBYES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 187.584
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/WE_BUILT_THIS_CITY.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/WE_BUILT_THIS_CITY.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 276.456
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/WHAT_A_FOOL_BELIEVES.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/WHAT_A_FOOL_BELIEVES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 194.856
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_01.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_01.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.248
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_02.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_02.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.568
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_03.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_03.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.264
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_04.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_04.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.608
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_05.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_05.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 8.472
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_06.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_06.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 8.208
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_07.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_07.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 12.288
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_08.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_08.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 9.912
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_09.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_09.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.784
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_10.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_10.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 10.152
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_11.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_11.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 6.384
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_12.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_12.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 11.832
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_13.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_13.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 9.912
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_01.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_01.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.552
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_02.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_02.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.36
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_03.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_03.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 25.992
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_04.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_04.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 25.608
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_05.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_05.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.52
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_06.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_06.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 32.304
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_07.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_07.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 29.904
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_08.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_08.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.24
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_09.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_09.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.216
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_10.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_10.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 25.08
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_11.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_11.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 10.008
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_12.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_12.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.376
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_13.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_13.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 34.08
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_14.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_14.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 13.728
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_15.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_15.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.184
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_16.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_16.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.24
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_17.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_17.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.84
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_18.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_18.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 21.312
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_19.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_19.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 28.632
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_20.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_20.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 26.688
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_21.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_21.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 13.248
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_22.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_22.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.408
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_23.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_23.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.104
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_24.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_24.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 23.256
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_25.mp3": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_25.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.288
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/AGE_OF_CONSENT.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/AGE_OF_CONSENT.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 311.328
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/ALIEN_CRIME_LORD.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/ALIEN_CRIME_LORD.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 258.912
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/BABY_I_LOVE_YOU_SO.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/BABY_I_LOVE_YOU_SO.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 399.432
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/CYCLE.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/CYCLE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 187.872
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/DEEP.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/DEEP.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 228.288
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/DOWN_ON_THE_STREET.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/DOWN_ON_THE_STREET.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 222.624
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/DRAB_MEASURE.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/DRAB_MEASURE.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 272.016
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/EISBAR.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/EISBAR.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 260.616
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/FACELESS.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/FACELESS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 137.856
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/FOUR_SHADOWS.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/FOUR_SHADOWS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 215.376
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/GIRLS_AND_BOYS.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/GIRLS_AND_BOYS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 277.368
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/GOING_BACK_TO_CALI.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/GOING_BACK_TO_CALI.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 250.272
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/HARD_TO_EXPLAIN.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/HARD_TO_EXPLAIN.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 224.064
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/HUMAN_FLY.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/HUMAN_FLY.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 131.04
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/ITS_YOURS.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/ITS_YOURS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 260.328
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/LFT_ME_LONELY.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/LFT_ME_LONELY.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 318.768
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/LIEBE_AUF_DEN_ERSTEN_BLICK.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/LIEBE_AUF_DEN_ERSTEN_BLICK.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 233.208
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/MANY_TEARS_AGO.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/MANY_TEARS_AGO.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 114.144
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/NIGHTCLUBBING.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/NIGHTCLUBBING.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 246.648
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/ON_THE_LEVEL.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/ON_THE_LEVEL.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 217.056
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/POOL_SONG.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/POOL_SONG.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 197.04
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/RAGA_MADHUVANTI.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/RAGA_MADHUVANTI.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 299.28
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/ROCK_AND_ROLL.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/ROCK_AND_ROLL.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 279.936
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/SHES_LOST_CONTROL.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/SHES_LOST_CONTROL.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 228.912
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/SO_IT_GOES.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/SO_IT_GOES.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 147.96
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TAINTED_LOVE.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TAINTED_LOVE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 125.136
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TAKE_DOWN_THE_HOUSE.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TAKE_DOWN_THE_HOUSE.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 187.464
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/THE_ADULTS_ARE_TALKING.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/THE_ADULTS_ARE_TALKING.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 308.736
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/THIS_IS_THE_DAY.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/THIS_IS_THE_DAY.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 280.032
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TIME_BOMB.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TIME_BOMB.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 128.664
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TOO_MUCH_MONEY.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TOO_MUCH_MONEY.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 135
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TV_CASUALTY.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TV_CASUALTY.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 145.632
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TYPICAL_GIRLS.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TYPICAL_GIRLS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 220.968
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/WHERE_NO_EAGLES_FLY.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/WHERE_NO_EAGLES_FLY.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 223.32
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_01.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_01.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 7.032
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_02.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_02.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.688
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_03.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_03.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.208
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_04.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_04.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.616
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_05.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_05.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.64
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_06.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_06.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.544
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_07.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_07.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.352
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_08.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_08.mp3",
+    "fusionStartType": "none",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 4.512
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_09.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_09.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.6
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_10.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_10.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 4.608
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_11.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_11.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.552
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_12.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_12.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.896
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_13.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_13.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.76
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_14.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_14.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.576
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_15.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_15.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.472
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_16.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_16.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.808
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_17.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_17.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.304
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_18.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_18.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 8.712
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_19.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_19.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 4.272
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_20.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_20.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 3
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_21.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_21.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.568
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_22.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_22.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 6.336
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_23.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_23.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 4.56
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_24.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_24.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 4.656
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_25.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_25.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 4.128
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_26.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_26.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 8.448
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_27.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_27.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 6.648
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_28.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_28.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.16
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_29.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_29.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 7.8
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_30.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_30.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 19.656
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_31.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_31.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 14.064
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_32.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_32.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 19.8
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_33.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_33.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 15.744
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_34.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_34.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.12
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_35.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_35.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 19.8
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_36.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_36.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 15.552
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD001_AQUARIUS.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD001_AQUARIUS.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.64
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD002_ARIES.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD002_ARIES.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.216
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD003_CANCER.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD003_CANCER.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.752
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD004_CAPRICORN.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD004_CAPRICORN.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 42.84
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD005_GEMINI.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD005_GEMINI.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.528
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD006_LEO.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD006_LEO.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.616
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD007_LIBRA.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD007_LIBRA.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 46.848
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD008_PISCES.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD008_PISCES.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 51.192
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD009_SAGITARIUS.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD009_SAGITARIUS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 52.488
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD010_SCORPIO.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD010_SCORPIO.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.8
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD011_TAURUS.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD011_TAURUS.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 53.208
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD012_VIRGO.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD012_VIRGO.mp3",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 48.552
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_01.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_01.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 22.776
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_02.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_02.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 118.944
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_03.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_03.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 35.16
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_04.mp3": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_04.mp3",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 38.736
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "meu-radio",
+  "version": "1.0.0",
+  "description": "Rádio Web simples",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^39.1.2",
+    "serve": "^14.2.0"
+  },
+  "dependencies": {
+    "music-metadata": "^11.10.2",
+    "node-web-audio-api": "^1.0.4"
+  }
+}

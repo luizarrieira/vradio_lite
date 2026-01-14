@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Los Santos Radio Network</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+    body {
+      margin: 0;
+      background: #0e0e0e;
+      color: #eee;
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      user-select: none;
+    }
+    #capa {
+      width: 280px;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 16px;
+      box-shadow: 0 0 25px rgba(255,255,255,0.15);
+      margin-bottom: 25px;
+      transition: transform 0.6s ease-in-out, box-shadow 0.4s ease;
+    }
+    #capa.playing {
+      transform: scale(1.05);
+      box-shadow: 0 0 35px rgba(0,255,255,0.25);
+    }
+    #btnStart {
+      padding: 14px 32px;
+      border: none;
+      border-radius: 8px;
+      background: #00ffff;
+      color: #000;
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    #btnStart:hover {
+      background: #00cccc;
+    }
+    #status {
+      margin-top: 16px;
+      font-size: 14px;
+      color: #aaa;
+      font-family: monospace;
+    }
+    #logArea {
+      margin-top: 20px;
+      width: 90%;
+      max-width: 600px;
+      height: 150px;
+      overflow-y: auto;
+      background: #111;
+      border: 1px solid #333;
+      padding: 8px;
+      border-radius: 6px;
+      font-family: monospace;
+      font-size: 12px;
+      color: #0f0;
+      margin-bottom: 20px;
+    }
+
+    /* --- Estilos do Seletor de Rádio --- */
+    .radio-selector {
+      display: flex;
+      gap: 20px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .radio-option {
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .radio-option img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #333;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    .radio-option:hover {
+      transform: scale(1.1);
+    }
+    .radio-option.active img {
+      border-color: #00ffff;
+      box-shadow: 0 0 15px #00ffff;
+    }
+    .radio-option::after {
+      content: attr(data-name);
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0,0,0,0.8);
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+      z-index: 10;
+    }
+    .radio-option:hover::after {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <img id="capa" src="RADIO_18_90S_ROCK/capas/default.jpg" alt="Capa da música atual" />
+  <button id="btnStart">▶ Iniciar Rádio</button>
+  <div id="status">Clique para iniciar a transmissão</div>
+  <div id="logArea"></div>
+
+  <div class="radio-selector">
+    <div class="radio-option" data-name="Radio Mirror Park" onclick="window.__RADIO.switchChannel('silverlake')">
+      <img src="RADIO_16_SILVERLAKE/capas/default.jpg" alt="Mirror Park">
+    </div>
+    <div class="radio-option active" data-name="Vinewood Boulevard Radio" onclick="window.__RADIO.switchChannel('rock')">
+      <img src="RADIO_18_90S_ROCK/capas/default.jpg" alt="Vinewood Boulevard">
+    </div>
+    <div class="radio-option" data-name="Kult FM 99.1" onclick="window.__RADIO.switchChannel('kult')">
+      <img src="RADIO_34_DLC_HEI4_KULT/capas/default.jpg" alt="Kult FM">
+    </div>
+    <div class="radio-option" data-name="Los Santos Rock Radio" onclick="window.__RADIO.switchChannel('class_rock')">
+      <img src="RADIO_01_CLASS_ROCK/capas/default.jpg" alt="Los Santos Rock">
+    </div>
+  </div>
+
+  <script type="module" src="renderer.js"></script>
+  
+  <script>
+    // Configuração Visual (Console na tela)
+    const logArea = document.getElementById('logArea');
+    const capa = document.getElementById('capa');
+    const statusEl = document.getElementById('status');
+    const oldLog = console.log;
+    
+    // Redireciona console.log para a div na tela para você debugar
+    console.log = (...args) => {
+      oldLog(...args);
+      if (logArea) {
+        const line = document.createElement('div');
+        line.textContent = args.join(' ');
+        logArea.appendChild(line);
+        logArea.scrollTop = logArea.scrollHeight;
+      }
+    };
+    
+    // Botão de Iniciar (Start)
+    const btnStart = document.getElementById('btnStart');
+    if (btnStart) {
+      btnStart.addEventListener('click', () => {
+        statusEl.textContent = '🎧 Transmitindo...';
+        capa.classList.add('playing');
+        
+        // Chama a nova função global que criamos no renderer.js
+        if (window.__RADIO && window.__RADIO.startRadio) {
+          window.__RADIO.startRadio();
+          // Esconde o botão start após clicar
+          btnStart.style.display = 'none'; 
+        } else {
+          console.error("Erro: O sistema de rádio não foi carregado corretamente.");
+        }
+      });
+    }
+
+    // Função global para atualizar visual dos botões (chamada pelo renderer.js)
+    window.updateRadioUI = (activeId) => {
+      document.querySelectorAll('.radio-option').forEach(el => {
+        // Remove classe ativa de todos
+        el.classList.remove('active');
+        
+        // Verifica se o onclick deste botão chama a rádio ativa
+        // Ex: onclick="window.__RADIO.switchChannel('rock')"
+        const onClickAttr = el.getAttribute('onclick');
+        if (onClickAttr && onClickAttr.includes(`'${activeId}'`)) {
+          el.classList.add('active');
+        }
+      });
+    };
+  </script>
+</body>
+</html>
