@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -139,35 +140,44 @@
   </div>
 
   <script type="module" src="renderer.js"></script>
-
-<script>
-  // Log visual para debugging
-  const logArea = document.getElementById('logArea');
-  const oldLog = console.log;
-  console.log = (...args) => {
-    oldLog(...args);
-    if(logArea) {
-        const line = document.createElement('div');
-        line.textContent = args.join(' ');
-        logArea.appendChild(line);
-    }
-  };
-
-  // Botão Iniciar
-  document.getElementById('btnStart').addEventListener('click', () => {
-    const statusEl = document.getElementById('status');
+  
+  <script>
+    const logArea = document.getElementById('logArea');
     const capa = document.getElementById('capa');
+    const statusEl = document.getElementById('status');
+    const oldLog = console.log;
+    console.log = (...args) => {
+      oldLog(...args);
+      const line = document.createElement('div');
+      line.textContent = args.join(' ');
+      logArea.appendChild(line);
+      logArea.scrollTop = logArea.scrollHeight;
+    };
     
-    // VERIFICAÇÃO DE SEGURANÇA
-    if (window.__RADIO) {
-        statusEl.textContent = '🎧 Transmitindo...';
-        capa.classList.add('playing');
-        window.__RADIO.startRadio();
-    } else {
-        console.error("ERRO: O script renderer.js ainda não carregou ou tem erro.");
-        alert("Aguarde um momento ou verifique o console (F12) por erros vermelhos.");
-    }
-  });
-</script>
+    document.getElementById('btnStart').addEventListener('click', () => {
+  statusEl.textContent = '🎧 Transmitindo...';
+  capa.classList.add('playing');
+  
+  // ADICIONE ESTA LINHA ABAIXO:
+  if (window.__RADIO) {
+    window.__RADIO.startRadio();
+  }
+});
+
+    window.updateRadioUI = (channelId) => {
+      document.querySelectorAll('.radio-option').forEach(el => {
+        el.classList.remove('active');
+        const name = el.getAttribute('data-name');
+        if (
+          (channelId === 'rock' && name.includes('Vinewood')) ||
+          (channelId === 'silverlake' && name.includes('Mirror')) ||
+          (channelId === 'class_rock' && name.includes('Los Santos')) ||
+          (channelId === 'kult' && name.includes('Kult'))
+        ) {
+          el.classList.add('active');
+        }
+      });
+    };
+  </script>
 </body>
 </html>
