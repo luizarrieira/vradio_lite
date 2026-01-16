@@ -139,57 +139,35 @@
   </div>
 
   <script type="module" src="renderer.js"></script>
-  
-  <script>
-    // Configuração Visual (Console na tela)
-    const logArea = document.getElementById('logArea');
-    const capa = document.getElementById('capa');
-    const statusEl = document.getElementById('status');
-    const oldLog = console.log;
-    
-    // Redireciona console.log para a div na tela para você debugar
-    console.log = (...args) => {
-      oldLog(...args);
-      if (logArea) {
+
+<script>
+  // Log visual para debugging
+  const logArea = document.getElementById('logArea');
+  const oldLog = console.log;
+  console.log = (...args) => {
+    oldLog(...args);
+    if(logArea) {
         const line = document.createElement('div');
         line.textContent = args.join(' ');
         logArea.appendChild(line);
-        logArea.scrollTop = logArea.scrollHeight;
-      }
-    };
+    }
+  };
+
+  // Botão Iniciar
+  document.getElementById('btnStart').addEventListener('click', () => {
+    const statusEl = document.getElementById('status');
+    const capa = document.getElementById('capa');
     
-    // Botão de Iniciar (Start)
-    const btnStart = document.getElementById('btnStart');
-    if (btnStart) {
-      btnStart.addEventListener('click', () => {
+    // VERIFICAÇÃO DE SEGURANÇA
+    if (window.__RADIO) {
         statusEl.textContent = '🎧 Transmitindo...';
         capa.classList.add('playing');
-        
-        // Chama a nova função global que criamos no renderer.js
-        if (window.__RADIO && window.__RADIO.startRadio) {
-          window.__RADIO.startRadio();
-          // Esconde o botão start após clicar
-          btnStart.style.display = 'none'; 
-        } else {
-          console.error("Erro: O sistema de rádio não foi carregado corretamente.");
-        }
-      });
+        window.__RADIO.startRadio();
+    } else {
+        console.error("ERRO: O script renderer.js ainda não carregou ou tem erro.");
+        alert("Aguarde um momento ou verifique o console (F12) por erros vermelhos.");
     }
-
-    // Função global para atualizar visual dos botões (chamada pelo renderer.js)
-    window.updateRadioUI = (activeId) => {
-      document.querySelectorAll('.radio-option').forEach(el => {
-        // Remove classe ativa de todos
-        el.classList.remove('active');
-        
-        // Verifica se o onclick deste botão chama a rádio ativa
-        // Ex: onclick="window.__RADIO.switchChannel('rock')"
-        const onClickAttr = el.getAttribute('onclick');
-        if (onClickAttr && onClickAttr.includes(`'${activeId}'`)) {
-          el.classList.add('active');
-        }
-      });
-    };
-  </script>
+  });
+</script>
 </body>
 </html>
