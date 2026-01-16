@@ -1,190 +1,165 @@
-import stationsData from './stations.js';
+// No topo do renderer.js
+let programacaoGlobal = null;
+let currentSequenceIndex = 0;
+let nextSequenceAudioData = null; // Buffer para a próxima sequência
 
-/* =================== Configurações Globais =================== */
-const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-const audioCtx = new AudioContextClass();
-
-let gradeProgramada = null;
-let staticBuffer = null;
-let isSystemStarted = false;
-let currentActiveChannelId = 'rock'; 
-let stations = {};
-
-// Variáveis para controle da Estática
-let staticSource = null;
-let staticGain = null;
-
-const sleep = (ms) => new Promise(r => setTimeout(r, ms));
-
-/* =================== Controle da Estática =================== */
-
-/**
- * Inicia o chiado em loop infinito
- */
-function startStaticLoop() {
-  if (staticSource) return; // Evita sobreposição
-
-  staticSource = audioCtx.createBufferSource();
-  staticSource.buffer = staticBuffer;
-  staticSource.loop = true; // <--- Ativa o loop
-
-  staticGain = audioCtx.createGain();
-  staticGain.connect(audioCtx.destination);
-  staticGain.gain.value = 0.2; // Volume da estática
-
-  staticSource.connect(staticGain);
-  staticSource.start();
+// Carregar a programação antes de tudo
+async function loadGlobalData() {
+    // ... carregamentos anteriores ...
+    const resp = await fetch('programacao.json');
+    programacaoGlobal = await resp.json();
 }
 
-/**
- * Para o chiado com um fade-out suave
- */
-function stopStaticLoop() {
-  if (staticSource) {
-    const now = audioCtx.currentTime;
-    staticGain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
-    staticSource.stop(now + 0.4);
+// Função para iniciar a rádio no ponto certo
+function startRadio() {
+    if (!audioCtx) initAudio();
     
-    staticSource = null;
-    staticGain = null;
-  }
-}
-
-/* =================== Classe RadioStation =================== */
-class RadioStation {
-  constructor(id, name) {
-    this.id = id;
-    this.name = name;
-    this.isPlaying = false;
-    this.currentSource = null;
-    this.masterGain = audioCtx.createGain();
-    this.masterGain.connect(audioCtx.destination);
-    this.masterGain.gain.value = 0;
-  }
-
-  sincronizarComRelogio() {
-    const agora = new Date();
-    const dia = agora.getDate().toString();
-    const segundosHoje = (agora.getHours() * 3600) + (agora.getMinutes() * 60) + agora.getSeconds();
+    // 1. Calcular tempo atual do mês
+    const now = new Date();
+    const dia = now.getDate();
+    const hora = now.getHours();
+    const min = now.getMinutes();
+    const seg = now.getSeconds();
     
-    const playlistDoDia = gradeProgramada[this.id][dia];
-    if (!playlistDoDia) return null;
+    // Tempo absoluto em segundos dentro do mês
+    const currentSeconds = ((dia - 1) * 86400) + (hora * 3600) + (min * 60) + seg;
+    
+    // 2. Achar a sequência correta na programação
+    const playlist = programacaoGlobal[currentActiveChannelId];
+    
+    // Busca binária ou linear simples para achar onde estamos
+    // Precisamos achar o item onde: item.startTime <= currentSeconds < (item.startTime + item.duration)
+    let foundIndex = -1;
+    let timeOffset = 0; // Onde exatamente dentro da música vamos começar
 
-    for (let i = 0; i < playlistDoDia.length; i++) {
-      const item = playlistDoDia[i];
-      const fimItem = item.inicio + item.duracao;
-      if (segundosHoje >= item.inicio && segundosHoje < fimItem) {
-        return { index: i, offset: segundosHoje - item.inicio };
-      }
+    for(let i=0; i < playlist.length; i++) {
+        const seq = playlist[i];
+        // Estimativa simples. O ideal é somar durações reais.
+        // Como temos startTime gerado no JSON, usamos ele.
+        if (currentSeconds >= seq.startTime && currentSeconds < (seq.startTime + seq.totalDuration)) {
+            foundIndex = i;
+            timeOffset = currentSeconds - seq.startTime;
+            break;
+        }
     }
-    return { index: 0, offset: 0 };
-  }
 
-  async play() {
-    this.isPlaying = true;
+    if (foundIndex === -1) foundIndex = 0; // Fallback
+
+    // 3. Tocar
+    playSequence(foundIndex, timeOffset, false);
+}
+
+// Variável para controlar a estática
+let staticSourceNode = null;
+
+async function switchChannel(newChannelId) {
+    if (newChannelId === currentActiveChannelId) return;
     
-    let sync = this.sincronizarComRelogio();
-    if (!sync) return;
+    // 1. Inicia Estática (Loop)
+    playStaticNoise();
 
-    let currentIndex = sync.index;
-    let currentOffset = sync.offset;
+    // 2. Para rádio atual e descarta buffers
+    stopCurrentPlayback(); // Função para dar stop nos nós atuais
+    
+    currentActiveChannelId = newChannelId;
+    
+    // 3. Carrega nova programação e sincroniza
+    // Pequeno delay para simular sintonia
+    await sleep(500); 
+    
+    startRadio(); // Recalcula posição para o novo canal
+}
 
-    while (this.isPlaying) {
-      const dia = new Date().getDate().toString();
-      const track = gradeProgramada[this.id][dia][currentIndex];
+function playStaticNoise() {
+    // Toca o arquivo de estática em loop
+    if (staticSourceNode) return;
+    const src = audioCtx.createBufferSource();
+    src.buffer = staticBuffer; // Já carregado globalmente
+    src.loop = true;
+    const gain = audioCtx.createGain();
+    src.connect(gain).connect(audioCtx.destination);
+    src.start();
+    
+    staticSourceNode = { source: src, gain: gain };
+}
 
-      try {
-        // --- INÍCIO DO CARREGAMENTO ---
-        const resp = await fetch(track.path);
-        const arrayBuffer = await resp.arrayBuffer();
-        const buffer = await audioCtx.decodeAudioData(arrayBuffer);
-        // --- FIM DO CARREGAMENTO ---
+function fadeOutStatic() {
+    if (!staticSourceNode) return;
+    const now = audioCtx.currentTime;
+    // Fade out de 1 segundo
+    staticSourceNode.gain.gain.setValueAtTime(1, now);
+    staticSourceNode.gain.gain.linearRampToValueAtTime(0, now + 1);
+    
+    const nodeToStop = staticSourceNode.source;
+    setTimeout(() => {
+        nodeToStop.stop();
+        nodeToStop.disconnect();
+    }, 1100);
+    staticSourceNode = null;
+}
 
-        // Quando o áudio estiver carregado e decodificado, paramos a estática
-        stopStaticLoop();
+// Core do Player Sequencial
+async function playSequence(index, startOffset = 0, isPreload = false) {
+    currentSequenceIndex = index;
+    const playlist = programacaoGlobal[currentActiveChannelId];
+    const sequenceData = playlist[index];
+    
+    if (!sequenceData) return; // Fim da programação
 
-        // Faz o volume da rádio subir
-        this.masterGain.gain.setTargetAtTime(1, audioCtx.currentTime, 0.2);
+    // Se estivermos trocando de rádio, remove a estática APÓS começar a tocar
+    if (staticSourceNode) {
+        fadeOutStatic();
+    }
 
-        if (track.musicaObj && this.id === currentActiveChannelId) {
-          document.getElementById('capa').src = track.musicaObj.capa;
+    // Carregar arquivos da sequência (Fetch & Decode)
+    // Aqui carregamos ID + Música + News dessa sequência específica
+    const buffers = await carregarBuffersDaSequencia(sequenceData);
+    
+    // Agendar Web Audio
+    const now = audioCtx.currentTime;
+    let localCursor = 0;
+
+    sequenceData.items.forEach(item => {
+        const source = audioCtx.createBufferSource();
+        source.buffer = buffers[item.file];
+        
+        const gain = audioCtx.createGain();
+        source.connect(gain).connect(masterGain); // Conectar ao master
+        
+        // Lógica de Start Time com base no Offset (se o usuário entrou no meio da música)
+        const whenToStart = now + localCursor - startOffset;
+        let offsetIntoFile = 0;
+        
+        if (whenToStart < now) {
+            // A música já deveria ter começado. Ajustamos o "ponto da agulha" (offset)
+            offsetIntoFile = Math.abs(whenToStart - now);
+            source.start(now, offsetIntoFile); 
+        } else {
+            source.start(whenToStart);
         }
 
-        const source = audioCtx.createBufferSource();
-        source.buffer = buffer;
-        source.connect(this.masterGain);
+        // --- Tratamento de Narrações (Ducking) ---
+        if (item.narrations) {
+            item.narrations.forEach(nar => {
+                // Configurar o player da narração e baixar volume da música principal (ducking)
+                // Usar item.metadata.introEnd para timing
+            });
+        }
         
-        source.start(audioCtx.currentTime, currentOffset);
-        this.currentSource = source;
+        localCursor += item.duration; // Ajustar com fusão real se necessário
+    });
 
-        const duracaoRestante = (buffer.duration - currentOffset) * 1000;
-        await sleep(duracaoRestante);
-
-      } catch (e) {
-        console.error("Erro na reprodução:", e);
-        await sleep(1000);
-      }
-
-      currentOffset = 0;
-      currentIndex = (currentIndex + 1) % gradeProgramada[this.id][dia].length;
+    // --- Preload da Próxima ---
+    // Enquanto toca esta, carregamos a próxima silenciosamente para memória
+    const nextIndex = index + 1;
+    if (playlist[nextIndex]) {
+        nextSequenceAudioData = await carregarBuffersDaSequencia(playlist[nextIndex]);
     }
-  }
-
-  stop() {
-    this.isPlaying = false;
-    this.masterGain.gain.setTargetAtTime(0, audioCtx.currentTime, 0.1);
-    if (this.currentSource) {
-      try { this.currentSource.stop(); } catch(e){}
-      this.currentSource = null;
-    }
-  }
+    
+    // Calcular quando chamar a próxima sequência
+    // setTimeout ou evento 'ended' do último nó (menos o tempo de fusão)
+    const timeUntilNext = (sequenceData.totalDuration - startOffset - 2.0) * 1000; // 2.0 é o overlap
+    setTimeout(() => {
+        playSequence(nextIndex, 0);
+    }, timeUntilNext);
 }
-
-/* =================== Controle de Interface =================== */
-
-async function switchChannel(newId) {
-  if (newId === currentActiveChannelId && stations[newId].isPlaying) return;
-
-  // 1. Para a rádio atual e tira o volume
-  if (stations[currentActiveChannelId]) {
-    stations[currentActiveChannelId].stop();
-  }
-
-  // 2. Aciona a estática em LOOP imediatamente
-  startStaticLoop();
-
-  // 3. Troca o ID e atualiza UI
-  currentActiveChannelId = newId;
-  window.updateRadioUI(newId);
-  
-  // 4. Inicia a rádio nova (ela vai carregar o arquivo e desligar o chiado quando terminar)
-  stations[newId].play(); 
-}
-
-/* =================== Inicialização =================== */
-
-async function startRadio() {
-  if (isSystemStarted) return;
-  isSystemStarted = true;
-
-  if (audioCtx.state === 'suspended') await audioCtx.resume();
-
-  // Carrega Grade e Chiado Inicial
-  const [gradeResp, staticResp] = await Promise.all([
-    fetch('programacao.json'),
-    fetch('0x0DE98BE6.mp3')
-  ]);
-  gradeProgramada = await gradeResp.json();
-  const staticAb = await staticResp.arrayBuffer();
-  staticBuffer = await audioCtx.decodeAudioData(staticAb);
-
-  stations.rock = new RadioStation('rock', 'Vinewood Blvd');
-  stations.silverlake = new RadioStation('silverlake', 'Radio Mirror Park');
-  stations.class_rock = new RadioStation('class_rock', 'LS Rock Radio');
-  stations.kult = new RadioStation('kult', 'Kult FM');
-
-  // Começa com a rádio ativa padrão
-  stations[currentActiveChannelId].play();
-}
-
-window.__RADIO = { startRadio, switchChannel };
