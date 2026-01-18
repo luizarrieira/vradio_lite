@@ -1,13 +1,11 @@
-// renderer.js - Leitura Precisa de Programação
-
 /* ==========================================================================
-   CONFIGURAÇÕES & VARIÁVEIS
+   RENDERER.JS - VERSÃO FINAL (CAPAS FIX & TIMING)
    ========================================================================== */
 const AudioContextClass = window.AudioContext || window.webkitAudioContext;
 const audioCtx = new AudioContextClass();
 
 const STATIC_FILE = '0x0DE98BE6.mp3'; 
-const FADE_TIME = 0.05; // Fade rápido para ducking (0.05s)
+const FADE_TIME = 0.05; 
 
 let currentSchedule = null;
 let currentActiveChannelId = 'rock'; 
@@ -18,6 +16,7 @@ let currentSourceNodes = [];
 let nextSequenceTimeout = null;
 let staticNode = null;
 let staticBuffer = null;
+let currentCoverSrc = ''; // Para evitar recarregar a mesma imagem
 
 /* ==========================================================================
    CARREGAMENTO
@@ -48,7 +47,7 @@ async function loadStationSchedule(stationId) {
 }
 
 /* ==========================================================================
-   ENGINE DE ÁUDIO
+   ENGINE
    ========================================================================== */
 function getSecondsInMonth() {
     const now = new Date();
@@ -91,7 +90,15 @@ function fadeOutStatic() {
     setTimeout(() => { try { nodeParam.src.stop(); } catch(e){} }, 1100);
 }
 
-// ---- PLAY BLOCK ----
+function updateCover(src) {
+    if (!src || src === currentCoverSrc) return;
+    const capaEl = document.getElementById('capa');
+    if (capaEl) {
+        capaEl.src = src;
+        currentCoverSrc = src;
+    }
+}
+
 async function playBlock(index, startOffset, isSwitching) {
     if (!currentSchedule || currentSchedule.length === 0) return;
     if (index >= currentSchedule.length) index = 0;
@@ -137,7 +144,6 @@ async function playBlock(index, startOffset, isSwitching) {
             const itemStartTimeRelative = localCursor;
             
             // Calculo de quando este arquivo começa RELATIVO AO AGORA
-            // se startOffset for 100, e item começa em 0, startRelative = -100
             let whenToStart = now + (itemStartTimeRelative - startOffset);
             let offsetIntoFile = 0;
 
@@ -146,38 +152,37 @@ async function playBlock(index, startOffset, isSwitching) {
                 whenToStart = now;
             }
 
+            // CORREÇÃO DA CAPA: Atualiza imediatamente se já começou ou agenda
+            if (item.type === 'music' && item.metadata?.capa) {
+                const delayMs = (whenToStart - now) * 1000;
+                if (delayMs <= 0) {
+                    // Já devia estar tocando, atualiza agora
+                    updateCover(item.metadata.capa);
+                } else {
+                    // Vai tocar no futuro, agenda
+                    setTimeout(() => {
+                        updateCover(item.metadata.capa);
+                    }, delayMs);
+                }
+            }
+
             // Toca apenas se o arquivo ainda tem conteúdo restante
             if (offsetIntoFile < item.duration) {
                 try {
                     source.start(whenToStart, offsetIntoFile);
-                    
-                    // Capa UI
-                    if (item.type === 'music' && item.metadata?.capa && (whenToStart - now) < 20) {
-                        setTimeout(() => {
-                            const capaEl = document.getElementById('capa');
-                            if(capaEl) capaEl.src = item.metadata.capa;
-                        }, (whenToStart - now) * 1000);
-                    }
                 } catch(e) {}
 
-                // --- NARRAÇÕES (VERIFICAÇÃO DE TEMPO RIGOROSA) ---
+                // --- NARRAÇÕES ---
                 if (item.narrations && item.narrations.length > 0) {
                     item.narrations.forEach(nar => {
                         const narBuf = buffers[nar.file];
                         if (!narBuf) return;
 
-                        // Momento absoluto que a narração DEVERIA começar
-                        // itemStartTimeRelative é onde a música começa dentro do bloco (ex: 0s, 5s)
-                        // nar.startAt é onde a fala começa dentro da música
-                        // blockStartAbsoluto = now - startOffset
                         const blockStartAbs = now - startOffset;
                         const narStartAbs = blockStartAbs + itemStartTimeRelative + nar.startAt;
                         const narEndAbs = narStartAbs + nar.duration;
 
-                        // VERIFICAÇÃO 1: A narração já acabou?
-                        if (now >= narEndAbs) {
-                            return; // Ignora, já passou
-                        }
+                        if (now >= narEndAbs) return; // Já passou
 
                         const srcN = audioCtx.createBufferSource();
                         srcN.buffer = narBuf;
@@ -185,18 +190,17 @@ async function playBlock(index, startOffset, isSwitching) {
                         srcN.connect(gainN).connect(audioCtx.destination);
                         currentSourceNodes.push({ source: srcN, gain: gainN });
 
-                        // VERIFICAÇÃO 2: Estamos no meio da narração?
                         if (now > narStartAbs && now < narEndAbs) {
                             // Toca do meio
                             const offsetNar = now - narStartAbs;
                             srcN.start(now, offsetNar);
-                            // Aplica Ducking imediato (já estamos na fala)
+                            // Ducking imediato
                             gainNode.gain.setValueAtTime(0.4, now); 
                             gainNode.gain.setValueAtTime(0.4, narEndAbs); 
                             gainNode.gain.linearRampToValueAtTime(1, narEndAbs + 0.5);
                         } 
-                        // VERIFICAÇÃO 3: Vai tocar no futuro?
                         else {
+                            // Toca no futuro
                             srcN.start(narStartAbs);
                             // Agenda Ducking
                             const DUCK_VAL = (currentActiveChannelId === 'kult') ? 0.5 : 0.4;
@@ -210,11 +214,8 @@ async function playBlock(index, startOffset, isSwitching) {
             }
         }
 
-        // Fusão simples para avançar o cursor (overlap estimado)
+        // Fusão simples para avançar o cursor
         let overlap = 1.0; 
-        // Se quiser precisão total, teríamos que recalcular o calculateFusion aqui, 
-        // mas o JSON já tem o tempo total do bloco correto.
-        // Usar uma média segura para o cursor local:
         if (nextItem && nextItem.type === 'news') overlap = 0.2;
         localCursor += (item.duration - overlap);
     }
@@ -252,9 +253,6 @@ function syncAndPlay(isSwitching) {
     playBlock(foundIndex, offset, isSwitching);
 }
 
-/* ==========================================================================
-   GLOBAL API
-   ========================================================================== */
 window.__RADIO = {
     startRadio: async () => {
         if (isSystemStarted) return;
@@ -269,6 +267,7 @@ window.__RADIO = {
         playStatic();
         stopCurrentAudio();
         currentActiveChannelId = id;
+        currentCoverSrc = ''; // Reseta capa para forçar atualização na troca
         await loadStationSchedule(id);
         await new Promise(r => setTimeout(r, 600));
         syncAndPlay(true);
