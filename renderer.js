@@ -5,7 +5,7 @@ const AudioContextClass = window.AudioContext || window.webkitAudioContext;
 const audioCtx = new AudioContextClass();
 
 const STATIC_FILE = '0x0DE98BE6.mp3'; 
-const FADE_TIME = 0.05; 
+const FADE_TIME = 0.02; 
 
 let currentSchedule = null;
 let currentActiveChannelId = 'rock'; 
